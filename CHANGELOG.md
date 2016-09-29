@@ -1,3 +1,27 @@
+2.0.6 / 2016-08-04
+------------------
+
+- Fix tiler math: bad rounding could produce tiles out of src area, #61.
+
+
+2.0.5 / 2016-07-19
+------------------
+
+- Fix mem leak: release objectURL, used to create Web Workers.
+
+
+2.0.4 / 2016-06-24
+------------------
+
+- Deps bump (`webworkify`). Previous version had problems with IE Edge, #56.
+
+
+2.0.3 / 2016-06-07
+------------------
+
+- Deps bump. Use fresh `webworkify` with proper ObjectURL release, #55.
+
+
 2.0.2 / 2016-03-30
 ------------------
 
